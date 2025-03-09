@@ -11,12 +11,15 @@ This is a serverless sentiment analysis API built using:
 3. Comprehend analyzes the sentiment** and returns a classification.
 4. Lambda returns a JSON response** with the sentiment results.
 
-Example Request
+Example Request:
+
 You can test the API using curl:
 
 curl -X POST "https://30wpw0kkxf.execute-api.us-east-1.amazonaws.com/prod/analyze" \
      -H "Content-Type: application/json" \
      -d {"text": "I love AWS!"}
+
+     
 Example Response:
 
 {
